@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV HOVER</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* ESCONDE OS Paragrafos dentro de uma div */
+        div > p {
+            display: none;
+        }
+        /*Mostra os paragrafos dentro do menu quando passar o mouse em cima */
+        div:hover > p {
+            display: block;
+            color: rgb(0, 255, 21);
+            background-color: brown;
+        }
+        /*div para quando passar o mouse em cima */
+        div:hover {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo hover</h1>
+    <p>Passe o mouse sobre o texto abaixo:</p>
+    <div>PASSE O MOUSE
+        <p>Parabéns</p>
+    </div>
+
+    
+</body>
+</html>
